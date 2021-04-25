@@ -9,13 +9,13 @@ public class Perro implements Comparable <Perro> {
 	
 	private String name, race;
 	private Date date;
-	private int ID, años, meses;
+	private int ID, years, meses;
 	private PApplet app;
-	public Perro( String name, String race, Date date, int años, int meses, int iD, PApplet app) {
+	public Perro( String name, String race, Date date, int years, int meses, int iD, PApplet app) {
 		this.name = name;
 		this.race = race;
 		this.date = date;
-		this.años = años;
+		this.years = years;
 		this.meses = meses;
 		ID = iD;
 		this.app = app;
@@ -32,8 +32,8 @@ public class Perro implements Comparable <Perro> {
 		
 		SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy");
 		String date = format.format(this.date);
-		app.text("B: "+date, x, 162);
-		app.text("Edad: "+ años + " años y " + meses + " meses", x, 180);
+		app.text("F: "+date, x, 162);
+		app.text("Edad: "+ years + " años y " + meses + " meses", x, 180);
 	}
 
 	public String getName() {
@@ -74,12 +74,14 @@ public class Perro implements Comparable <Perro> {
 		return this.ID - o.getID();
 	}
 
-	public int getAños() {
-		return años;
+	
+
+	public int getYears() {
+		return years;
 	}
 
-	public void setAños(int años) {
-		this.años = años;
+	public void setYears(int years) {
+		this.years = years;
 	}
 
 	public int getMeses() {

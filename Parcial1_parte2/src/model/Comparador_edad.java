@@ -8,11 +8,11 @@ public class Comparador_edad implements Comparator <Perro>{
 	public int compare(Perro o1, Perro o2) {
 		// TODO Auto-generated method stub
 
-		if ( o1.getAños() == o2.getAños()) {
+		if ( o1.getYears() == o2.getYears()) {
 			return o1.getMeses() - o2.getMeses();
 		} else {
 
-			return o1.getAños()- o2.getAños();
+			return o1.getYears()- o2.getYears();
 		}	
 	}
 

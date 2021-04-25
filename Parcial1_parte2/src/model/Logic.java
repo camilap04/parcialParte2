@@ -145,7 +145,7 @@ public class Logic {
 		for (int i = 0; i < perroList.size(); i++) {
 
 			String id = Integer.toString(perroList.get(i).getID());
-			String años = Integer.toString(perroList.get(i).getAños());
+			String años = Integer.toString(perroList.get(i).getYears());
 			String meses = Integer.toString(perroList.get(i).getMeses());
 			String nombre = perroList.get(i).getName();
 			String raza = perroList.get(i).getRace();
