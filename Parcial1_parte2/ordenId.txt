@@ -1,0 +1,5 @@
+1, Martina, Labrador-retriever, 11/04/2019, 2 años y 0 meses
+2, Kaiser, Pastor-aleman, 14/06/2010, 10 años y 10 meses
+3, Heisenberg, Bulldog, 10/02/2019, 2 años y 2 meses
+4, Lola, Rottweiler, 05/12/2020, 0 años y 4 meses
+5, Nymeria, Husky-siberiano, 09/02/2017, 4 años y 2 meses
