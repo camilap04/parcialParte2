@@ -145,14 +145,14 @@ public class Logic {
 		for (int i = 0; i < perroList.size(); i++) {
 
 			String id = Integer.toString(perroList.get(i).getID());
-			String años = Integer.toString(perroList.get(i).getYears());
+			String years = Integer.toString(perroList.get(i).getYears());
 			String meses = Integer.toString(perroList.get(i).getMeses());
 			String nombre = perroList.get(i).getName();
 			String raza = perroList.get(i).getRace();
 
 			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 			String fecha = format.format(perroList.get(i).getDate());
-			String perro = id + ", " + nombre + ", " + raza + ", " + fecha + ", " + años + " años y " + meses + " meses" ;
+			String perro = id + ", " + nombre + ", " + raza + ", " + fecha + ", " + years + " años y " + meses + " meses" ;
 			orden[i] = perro;
 		}
 
